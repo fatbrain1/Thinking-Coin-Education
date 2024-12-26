@@ -1,7 +1,4 @@
 # Thinking-Coin-Education
-A welcoming introduction for the repository.
-
-Sample Content:
 
 # Thinking Coin Education Vision 🌟  
 Revolutionizing education with AI, blockchain, and Thinking Coin incentives.
