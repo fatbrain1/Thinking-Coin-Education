@@ -13,4 +13,4 @@ We invite private schools, libraries, non-profits, and digital platforms to join
 - Gain recognition as an innovator in global education.  
 - Contribute to an equitable learning system.  
 
-Contact us at [your-email] to collaborate.  
+Contact us at [mansjobs@icloud.com] to collaborate.  
