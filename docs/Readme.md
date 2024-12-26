@@ -18,3 +18,4 @@ Our mission is to empower students, teachers, and families through gamified educ
 4. [Pilot Projects](pilots/)  
 
 ## Join Us  
+Explore partnership opportunities or contribute as a developer. Learn more in [community/contributors.md](community/contributors.md).  
