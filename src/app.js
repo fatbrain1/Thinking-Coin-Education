@@ -26,7 +26,20 @@ function App() {
             console.error(error);
         }
     };
+const mintRewards = async (recipient, amount) => {
+    try {
+        const { ethereum } = window;
+        const provider = new ethers.providers.Web3Provider(ethereum);
+        const signer = provider.getSigner();
+        const contract = new ethers.Contract(CONTRACT_ADDRESS, CONTRACT_ABI, signer);
 
+        const tx = await contract.mintReward(recipient, ethers.utils.parseUnits(amount, 18));
+        await tx.wait();
+        alert("Rewards minted successfully!");
+    } catch (error) {
+        console.error(error);
+    }
+};
     return (
         <div>
             <h1>Thinking Coin DApp</h1>
