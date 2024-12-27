@@ -16,4 +16,4 @@ Thinking Coin makes learning fun by rewarding your efforts with valuable Thinkin
 2. Check your progress and rewards in the DApp.  
 3. Aim for milestones to unlock bonus rewards!  
 
-d) Sponsors Invitation (sponsors-invitation.md)
+
