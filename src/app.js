@@ -40,6 +40,20 @@ const mintRewards = async (recipient, amount) => {
         console.error(error);
     }
 };
+    const burnTokens = async (amount) => {
+    try {
+        const { ethereum } = window;
+        const provider = new ethers.providers.Web3Provider(ethereum);
+        const signer = provider.getSigner();
+        const contract = new ethers.Contract(CONTRACT_ADDRESS, CONTRACT_ABI, signer);
+
+        const tx = await contract.burnTokens(ethers.utils.parseUnits(amount, 18));
+        await tx.wait();
+        alert("Tokens burned successfully!");
+    } catch (error) {
+        console.error(error);
+    }
+};
     return (
         <div>
             <h1>Thinking Coin DApp</h1>
